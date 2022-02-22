@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nettbutikk.no</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<link rel="stylesheet" href="resources/css/css3.css">
+		<link href="resources/navigators/gamingskjerm.html">
+		<link href="resources/navigators/gamingmus.html">
+		<link href="resources/navigators/gamingtastatur.html">
+		<link href="resources/navigators/omoss.html">
+	</head>
+	
+	<body>
+		<div class="topnav">
+		  <a class="active" href="hjem.html">Hjem</a>
+		  <a href="resources/navigators/gamingskjerm.html">Gaming Skjerm</a>
+		  <a href="resources/navigators/gamingmus.html">Gaming Mus</a>
+		  <a href="resources/navigators/gamingtastatur.html">Gaming Tastatur</a>
+		  <a href="resources/navigators/pcstasjonær.html">Stasjonær PC</a>
+		  <a href="resources/navigators/omoss.html">Om oss</a>
+		</div>
+
+		<div style="padding-left:16px">
+		  <h2>TrillingButikken</h2>
+		  <p>du kan trykke på boksene med forskjellige pc utstyret du har lyst å se på</p>
+		</div>
+		
+		<div class="grid-container">
+			<div class="grid-item">
+				<div id="box31">
+					<h1>Sjefen til nettsiden</h1>
+					<a href="mailto:lars.s.loenn@gmail.com">Lars.s.loenn@gmial.com</a><br>
+					<a href="tel:+4794979195">Tlf.nr 94979195</a>
+				</div>
+			</div>
+			<div class="grid-item">
+				<div class="slideshow-container">
+					<div class="mySlides fade">
+					  <div class="numbertext">1 / 4</div>
+						  <img src="resources/images/skjerm.jpg" alt="gamingskjerm" style="width:100%">
+					  <div class="text">Gaming Skjerm</div>
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">2 / 4</div>
+					  <img src="resources/images/mus1.jpg" alt="gamingmus" style="width:100%">
+					  <div class="text">Gaming mus</div>
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">3 / 4</div>
+					  <img src="resources/images/tas1.jpg" alt="gamingtastatur" style="width:100%">
+					  <div class="text">Gaming tastatur</div>
+					</div>
+
+					<div class="mySlides fade">
+					  <div class="numbertext">4 / 1</div>
+					  <img src="resources/images/stasjonær1.jpg" alt="stasjonærpc" style="width:100%">
+					  <div class="text">Stasjonær PC</div>
+					</div>
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					<div style="text-align:center">
+						<span class="dot" onclick="currentSlide(1)"></span> 
+						<span class="dot" onclick="currentSlide(2)"></span> 
+						<span class="dot" onclick="currentSlide(3)"></span>
+						<span class="dot" oneclick="currentSlide(4)"></span>
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+		<script>
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+				  slides[i].style.display = "none";  
+			  }
+			  for (i = 0; i < dots.length; i++) {
+				  dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";  
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>
+		<footer>
+			<a href="resources/navigators/Kontakt skjema.html">Kontakt oss</a>  
+		</footer>
+	</body>
+</html>

@@ -1,11 +1,11 @@
 body {
-	background-color: cyan;
-	font-family:Artial, Helvetica, sans-serif;
+	background-image: url("../img/space.jpg");
 }
 
 .topnav {
 	overflow: hidden;
 	background-color: #223;
+	opacity: 0.5;
 }
 
 .topnav a {
@@ -15,6 +15,7 @@ body {
 	padding: 18px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	opacity: 1;
 }
 
 .topnav a:hover {
@@ -25,7 +26,7 @@ body {
 .topnav a.active {
 		background-color: #04AA6D;
 		color: white;
-			}
+}
 
 img {
   display: block;
