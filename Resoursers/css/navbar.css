@@ -4,14 +4,14 @@
   background-color: rgb(12, 105, 145);
   display: flex;
   justify-content: center;
-  border: solid 1px;
+  border: solid 1px white;
   margin: 0% 16%;
   border-radius: 10px;
 }
 
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   border: solid 1px;
   text-align: center;
   padding: 20px 18px;
@@ -25,7 +25,7 @@
 }
 
 .topnav a.active {
-  background-color: #1e3741;
+  background-color: #10b2f3;
   color: black;
 }
 

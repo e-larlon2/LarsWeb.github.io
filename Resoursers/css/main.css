@@ -8,3 +8,18 @@ img {
     margin-left: 60%;
   }
   
+.prosj-container {
+  background-color:rgb(12, 105, 145);
+  border: solid 2px white;
+  margin: 10% 16%;
+  padding: 15%;
+}
+
+.inf {
+  background-color:rgb(12, 105, 145);
+  border: solid 2px white;
+  margin-left: 16%;
+  margin-top: 10%;
+  padding-left: 4%;
+  
+}
