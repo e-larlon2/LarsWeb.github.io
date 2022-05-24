@@ -1,0 +1,10 @@
+body {
+    background-image: url("../img/galaxy.jpg");
+  }
+  
+img {
+    display: block;
+    margin: 5% 7%;
+    margin-left: 60%;
+  }
+  
