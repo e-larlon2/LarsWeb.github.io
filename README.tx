@@ -6,3 +6,6 @@ fiks om meg,
 legg til links i hjem,
 
 legg til en slide show i hjem for links.
+
+<a href="Nettbutikk/hjem.html" target="_blank">
+        <button class="btn">Nettbutikk</button></a>
