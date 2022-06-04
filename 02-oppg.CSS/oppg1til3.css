@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	/*
+	background-color:blue;
+	
+	background-color:brown;
+	
+	background-color:pink;
+	
+	background-color:orange;
+	*/
+	background-color:lightblue;
+}
+h1 {
+	color:yellow;
+}
+
+h2 {
+	color:white;
+}
+
+h3 {
+	color:black;
+}
+
+p {
+	color:white;
+	margin:30px;
+}
+
+#yt {
+	color:#FF0000;
+	margin:40px;
+	padding:20px;
+}
+#st {
+	color:#000000;
+	margin:10px;
+	padding:20px;
+}
+
+#w3 {
+	color:forestgreen;
+	margin:40px;
+	padding:20px;
+}
+
+
+

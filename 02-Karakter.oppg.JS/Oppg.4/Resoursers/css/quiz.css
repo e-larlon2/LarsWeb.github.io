@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: orange;
+}
+
+.quiz-container {
+	background-color: white;
+	border: solid black;
+	text-align: center;
+	margin: 20%;
+	margin-top: 0%;
+	padding-bottom: 35%;
+	padding-top: 10%;
+}

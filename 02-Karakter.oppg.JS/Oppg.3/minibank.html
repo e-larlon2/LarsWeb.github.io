@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Resoursers/css/minibank.css">
+		<title>Minibank.com</title>
+	</head>
+
+	<body>
+		<div class="grid-container">
+			<div class="grid-item">
+				<h1>Welcome</h1>
+			</div>
+			<div class="grid-item2">
+				<h2>Write your pincode</h2><br><br>
+				<p id="wp">Your pincode wasn't rigth and you can't take out money</p>
+				<p id="rp">Your pincode was right, you can take out the money</p>
+				<p id="rpoa">your pincode was right but you don't have enough money!</p><br>
+				<form method="method" style="text-align: center">
+            <input type="number" name="name" placeholder="Write down your pincode" id="pinkode"> <br><br>
+            <input type="number" name="name" placeholder="How many will you take out" id="pengar"><br><br>
+            <input type="button" onClick="skjekBank()" value="trykk">
+			</form>
+			</div>
+		</div>
+		<script src="Resoursers/js/minibank.js"></script>
+	</body>
+</html>

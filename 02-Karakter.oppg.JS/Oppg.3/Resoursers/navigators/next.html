@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="../css/minibank.css">
+		<title>Minibank.com</title>
+	</head>
+	
+	<body>
+		<div class="grid-container">
+			<div class="grid-item3">
+				<h1>Here can you take out money, just write down the amount you wanna take out and press take out</h1>
+			</div>
+			<div class="grid-item2">
+				<h2>Take out money</h2><br><br>
+				<form action="ferdig.html">
+					<label for="takeout">Amount:</label><br>
+					<input type="number" id="number" name="number" required><br><br>
+					<button onClick="sjekkMaxAmount()" type="submit">Take out</button>
+				</form>
+			</div>
+		</div>
+		<script src="../js/minibank.js"></script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/*
+	background-color:red;
+	*/
+	
+	background-color:lightblue;
+	
+}
+/*
+#stygg {
+	color:darkred;
+	text-align:right;
+	font-size:13px;
+	margin-right:47px;
+	padding:40px;
+}
+
+#stygg2 {
+	color:blue;
+	font-family:Qahiri;
+	font-size:26px;
+	margin-left:33px;
+}
+*/
+#pen {
+	margin-left:30px;
+	font-size:60px;
+	text-shadow: 3px 2px 3px black
+}
+
+#pen2 {
+	margin-left:40px;
+	padding-top:20px;
+}
+
+
+
+
+
+
+
+

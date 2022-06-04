@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: lightblue;
+}
+p {
+	color:white;
+}
+.grid-container {
+	margin: 25%;
+	margin-top: 0%;
+	border: solid black;
+	background-color: white;
+	padding: 10% 5%;
+	padding-top: 0%;
+	
+}
+
+.grid-item {
+	padding-top:10px;
+	font-size: 50px;
+	padding-left: 20%;
+	
+	
+	
+	
+}
+
+.grid-item2 {
+	padding: 15% 35% ;
+	padding-top: 10%;
+	
+}
+
+.grid-item3 {
+	
+}
+#password {
+	
+}
