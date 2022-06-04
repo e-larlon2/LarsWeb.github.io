@@ -13,7 +13,7 @@
 
 .topnav a {
   float: left;
-  color: white;
+  color: orange;
   cursor:pointer;
   border: none;
   border-radius: 15px;
@@ -25,11 +25,11 @@
 
 .topnav a:hover {
   background-color: #6024a1;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 .topnav a.active {
-  background-color: blue;
+  background-color: #8e67b8;
   color: white;
 }
 
