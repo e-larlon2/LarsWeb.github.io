@@ -14,23 +14,43 @@ body {
   }
 
 .grid-btns {
-  margin: 8% 13%;
+  margin: 6% 13.7%;
   width: 72%;
-  padding:0%;
+  padding: 0%;
+  display: flex;
+}
+
+#h1 {
+  color: lightblue;
+  background-color: black;
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  border-radius: 15px;
+  border: 2px solid white;
+  width: 90%;
+  padding: 15px;
+  margin: 18px; 
+}
+
+#prosjekter {
+  justify-content: left;
+  align-items: left;
+  width: 50%;
+  margin-right: 10%;
 }
 
 #oppgaver {
- position: right;
+justify-content: right;
+align-items: right;
+width: 50%;
+margin-left: 10%;
 }
-
-
-
-
 
 
 #btn {
   padding: 25px;
-  margin: 25px;
+  margin: 18px;
   color: orange;
   background-color: black;
   text-align: center;
@@ -48,7 +68,7 @@ body {
   transform: translateY(4px);
 }
 
-img {
+#bilde {
   float: right;
   margin: 5% auto;
   margin-right: 14%;

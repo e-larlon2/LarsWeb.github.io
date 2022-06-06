@@ -1,0 +1,24 @@
+body {
+    background-color: #97F2F3;
+}
+
+#div-box {
+	background-color: #233C67;
+	color:azure;
+	padding: 15px;
+	align-content: center;
+	text-align: center;
+	margin: 2% 35%;
+	border: 5px outset black;
+	box-shadow: 5px 10px black;
+}
+
+#div-box2 {
+	background-color: #233C67;
+	color:azure;
+	padding: 50px;
+	margin: 5% 25%;
+	margin-top: 2%;
+	border: 5px outset black;
+	box-shadow: 5px 10px black;
+}

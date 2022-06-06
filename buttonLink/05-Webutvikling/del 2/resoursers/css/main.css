@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div-container {
+	background-color: black;
+	color: white;
+	border: solid black 3px;
+	padding: 30px;
+	margin: 10px;
+	
+}
+
+#rs {
+	color: green;
+}
+ 
+#fs {
+	color: red;
+}
