@@ -14,16 +14,6 @@ body {
   }
 
 .grid-btns {
-<<<<<<< HEAD
-  margin: 8% 13%;
-  width: 72%;
-  padding:0%;
-  display: flex;
-}
-
-#prosjekter {
-  justify-content: left;
-=======
   margin: 6% 13%;
   width: 73.5%;
   padding: auto;
@@ -47,20 +37,10 @@ body {
   justify-content: left;
   align-items: left;
   width: 60%;
->>>>>>> 072925dd5a2e6f0b4e862cb3a7b00bdf2341a0ff
   margin-right: 10%;
 }
 
 #oppgaver {
-<<<<<<< HEAD
- justify-content: right;
- margin-left: 10%;
-}
-
-
-
-
-=======
 justify-content: right;
 align-items: right;
 width: 50%;
@@ -68,7 +48,6 @@ margin-left: 10%;
 }
 
 
->>>>>>> 072925dd5a2e6f0b4e862cb3a7b00bdf2341a0ff
 #btn {
   padding: 25px;
   margin: 18px;
