@@ -1,0 +1,7 @@
+let index = 0
+
+const handleliste = [];
+
+handleliste[index] = tekstfeltet
+index++
+

@@ -5,10 +5,8 @@
   display: flex;
   justify-content: center;
   margin: 0% 14%;
-  cursor:pointer;
-  border: none;
   border-radius: 15px;
-  box-shadow: 0 9px white;
+  border: 2px solid white;
 }
 
 .topnav a {
@@ -20,7 +18,7 @@
   text-align: center;
   padding: 30px 28px;
   text-decoration: none;
-  font-size: 30px;
+  font-size:25px;
 }
 
 .topnav a:hover {
