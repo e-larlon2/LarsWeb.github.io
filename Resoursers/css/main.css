@@ -17,13 +17,18 @@ body {
   margin: 8% 13%;
   width: 72%;
   padding:0%;
+  display: flex;
+}
+
+#prosjekter {
+  justify-content: left;
+  margin-right: 10%;
 }
 
 #oppgaver {
- position: right;
+ justify-content: right;
+ margin-left: 10%;
 }
-
-
 
 
 
