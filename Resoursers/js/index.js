@@ -1,11 +1,11 @@
 // changes the image in OmMeg site to a warning then rick roll image
-function changeImage() {
+function ChangeImage() {
+  //alert("Warning!!!");
   document.getElementById("img").src = "Resoursers/img/rickroll.gif";
-  alert("Warning!!!");
-  changeImage = function () {};
+  ChangeImage = function () {};
 }
 
-function changeBack() {
+function ChangeBack() {
   document.getElementById("img").src = "Resoursers/img/mandostranding.jpg";
-  changeBack = function () {};
+  ChangeBack = function () {};
 }
