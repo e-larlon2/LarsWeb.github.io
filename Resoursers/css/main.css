@@ -2,13 +2,13 @@
 
 * {
   font-family: "Jim Nightshade", cursive;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   letter-spacing: 3px;
 }
 
 body {
-  background-color: black;
+  background-color: white;
   background-image: url("../img/bak.jpg");
   margin: 30px;
   }
@@ -36,17 +36,16 @@ body {
 #prosjekter {
   justify-content: left;
   align-items: left;
-  width: 60%;
+  width: 50%;
   margin-right: 10%;
 }
 
 #oppgaver {
 justify-content: right;
 align-items: right;
-width: 50%;
+width: 62%;
 margin-left: 10%;
 }
-
 
 #btn {
   padding: 25px;
@@ -68,7 +67,7 @@ margin-left: 10%;
   transform: translateY(4px);
 }
 
-#img {
+#bilde {
   float: right;
   margin: 5% auto;
   margin-right: 14%;
@@ -87,6 +86,7 @@ margin-left: 10%;
   padding-bottom: 10%;
   margin: 5% auto;
   margin-left: 14%;
+  width: 20%;
   color: white;
   background-color: black;
   border: none;
@@ -94,14 +94,3 @@ margin-left: 10%;
   box-shadow: 0 9px white;
 }
 
-.medie-img {
-  margin: 6% 13%;
-  width: 73.5%;
-  padding: auto;
-  display: flex;
-}
-
-#bilder {
- margin: 30px;
- height: 100px;
-}

@@ -1,11 +1,13 @@
 // changes the image in OmMeg site to a warning then rick roll image
-function ChangeImage() {
-  //alert("Warning!!!");
-  document.getElementById("img").src = "Resoursers/img/rickroll.gif";
-  ChangeImage = function () {};
+function changeImage() {
+  alert("Warning!!!");
+  document.getElementById("bilde").src = "Resoursers/img/rickroll.gif";
+  changeImage = function () {};
 }
 
-function ChangeBack() {
-  document.getElementById("img").src = "Resoursers/img/mandostranding.jpg";
-  ChangeBack = function () {};
+/*
+function changeBack() {
+  document.getElementById("bilde").src = "Resoursers/img/mandostranding.jpg";
+  changeBack = function () {};
 }
+*/

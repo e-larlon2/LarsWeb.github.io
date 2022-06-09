@@ -1,0 +1,39 @@
+.medie-img {
+    margin: 6% 13%;
+    width: 73.5%;
+    display: flex;
+  }
+  
+  #tittel {
+     color: lightblue;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    border-radius: 15px;
+    border: 2px solid white;
+    width: 90%;
+    padding: 20px;
+    margin: 13px; 
+    margin-left: 0%; 
+  }
+  
+  .rad-1 {
+  justify-content: center;
+  }
+  
+  
+  #bilder {
+    margin-right: 20px;
+    margin-bottom: 30px;;
+    padding: 15px;
+    background-color: black;
+    width: 92%;
+    border: none;
+    border-radius: 15px;
+    border: 2px solid white;
+   transition: 1s;
+   position: relative;
+  }
+  
+  #bilder:hover {transform: scale (1.06);}
